@@ -1,5 +1,7 @@
 from selenium import webdriver
 import time
+import sys
+
 x=raw_input("Enter the URL")
 refreshrate=raw_input("Enter the number of seconds")
 refreshrate=int(refreshrate)
